@@ -1,0 +1,50 @@
+footer a.navbar-brand {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+footer a.navbar-brand:hover {
+  color: #ccc;
+}
+
+.footer-1 {
+  background-color: #294b29;
+}
+
+.footer-2 {
+  background-color: #121d12;
+  border-top: 1px solid white;
+}
+
+footer ul.footer {
+  list-style: none;
+  padding-left: 0;
+  font-size: 16px;
+}
+
+footer ul.footer li {
+  margin-bottom: 10px;
+}
+
+footer ul.footer li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+footer ul.footer li a:hover {
+  color: #ccc;
+}
+
+/* Animasi Hover */
+footer a:hover {
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+footer .social-links a:hover,
+footer ul.footer li a:hover {
+  color: #ffdd57;
+  transition: color 0.3s ease;
+}

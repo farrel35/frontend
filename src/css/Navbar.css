@@ -1,0 +1,65 @@
+/* Navbar styles */
+.navbar {
+  border-bottom: 2px solid green;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.brand-image {
+  float: right;
+  line-height: 0.8;
+  margin-left: 0.8rem;
+  margin-right: 0.5rem;
+  margin-top: -3px;
+  max-height: 33px;
+  width: auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.search-form {
+  position: relative;
+  width: 70%;
+}
+
+.search-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 1050; /* Ensure it appears above other elements */
+  background-color: #fff; /* Match the background to the input */
+  border: 1px solid #ddd;
+  border-radius: 0 0 4px 4px;
+}
+
+.search-dropdown .dropdown-item {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Ensure the dropdown appears correctly in off-canvas */
+@media (max-width: 991px) {
+  .offcanvas .search-dropdown {
+    left: 15px;
+    right: 15px;
+    width: auto;
+  }
+}
+.custom-submenu-item {
+  margin-right: 20px;
+}
+
+.navbar-badge {
+  padding: 2px 4px;
+}

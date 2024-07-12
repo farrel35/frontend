@@ -1,0 +1,201 @@
+/* src/css/Cart.css */
+
+.cart-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.cart-card {
+  margin-bottom: 20px;
+}
+
+.cart-card-body {
+  padding: 20px;
+}
+
+.cart-img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.cart-text-body {
+  color: #000;
+}
+
+.cart-text-body:hover {
+  color: #007bff;
+}
+
+.cart-a-none {
+  text-decoration: none;
+}
+
+.cart-bg-green {
+  background-color: #294b29; /* Use Bootstrap color classes or your own */
+}
+
+.cart-sticky-shipping {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 90px; /* Adjust as needed */
+}
+
+.cart-btn-success {
+  background-color: #89bd95;
+  border: none;
+}
+
+.cart-btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.cart-btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.cart-card.bg-green {
+  background-color: #165b27 !important;
+  color: white;
+}
+
+.cart-card.bg-green .form-control {
+  margin-bottom: 1rem;
+}
+
+.cart-card.bg-green .form-select {
+  margin-bottom: 1rem;
+}
+
+.cart-card.bg-green .btn {
+  width: 100%;
+}
+
+.cart-card.bg-green .d-flex {
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive Font Sizes for Item Title */
+.cart-item-title {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+  .cart-item-title {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .cart-item-title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cart-item-title {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .cart-item-title {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .cart-item-title {
+    font-size: 1rem;
+  }
+}
+
+/* Responsive Button Sizes for Increase, Decrease, and Remove */
+.cart-btn-container {
+  margin-right: 10px;
+}
+
+.cart-btn-responsive {
+  font-size: 1rem;
+  padding: 5px 10px;
+}
+
+@media (max-width: 1200px) {
+  .cart-btn-responsive {
+    font-size: 0.95rem;
+    padding: 4px 8px;
+  }
+}
+
+@media (max-width: 992px) {
+  .cart-btn-responsive {
+    font-size: 0.9rem;
+    padding: 4px 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cart-btn-responsive {
+    font-size: 0.85rem;
+    padding: 3px 7px;
+  }
+}
+
+@media (max-width: 576px) {
+  .cart-btn-responsive {
+    font-size: 0.8rem;
+    padding: 3px 6px;
+  }
+}
+
+@media (max-width: 400px) {
+  .cart-btn-responsive {
+    font-size: 0.7rem;
+    padding: 2px 5px;
+  }
+}
+
+/* Responsive Remove Icon */
+.cart-remove-item {
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+@media (max-width: 1200px) {
+  .cart-remove-item {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .cart-remove-item {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cart-remove-item {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .cart-remove-item {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .cart-remove-item {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 768px) {
+  .cart-img {
+    width: 80px; /* Mengatur lebar gambar untuk layar lebih kecil */
+  }
+  .cart-price {
+    font-size: 0.9rem;
+  }
+}

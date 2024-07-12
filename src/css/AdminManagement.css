@@ -1,0 +1,204 @@
+/* dashboardadmin.css */
+
+/* Container utama */
+.admin-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.admin-sidebar {
+  width: 250px; /* Lebar sidebar */
+  background-color: #333; /* Warna latar belakang sidebar */
+  color: #fff; /* Warna teks sidebar */
+  padding: 20px;
+  position: fixed; /* Membuat sidebar tetap saat di-scroll */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto; /* Memastikan agar ada scroll saat konten melebihi tinggi sidebar */
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sidebar-logo {
+  width: 60px; /* Sesuaikan ukuran logo */
+  height: auto;
+  margin-right: 10px;
+}
+
+.sidebar-divider {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #888; /* Warna garis pemisah */
+  margin: 10px 0;
+}
+
+.admin-sidebar h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.admin-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-links button {
+  display: block;
+  width: 100%; /* Tombol mengisi lebar sidebar */
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #555; /* Warna tombol */
+  color: #fff; /* Warna teks tombol */
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-links button:hover {
+  background-color: #777; /* Warna tombol saat hover */
+}
+
+/* Konten utama */
+.admin-content {
+  flex: 1; /* Konten utama mengisi sisa ruang */
+  padding: 20px;
+  margin-left: 250px; /* Menggeser konten utama dari sidebar */
+  background-color: #f8f8f8; /* Warna latar belakang konten */
+}
+
+.admin-content h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* dashboardadmin.css */
+
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.dashboard-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.dashboard-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.dashboard-card p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.container-admin {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.container-admin h2 {
+  margin-bottom: 20px;
+}
+
+.table-admin {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-admin th,
+.table-admin td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.table-admin th {
+  background-color: #f2f2f2;
+}
+
+.table-admin td {
+  background-color: #fff;
+}
+
+.btn-edit,
+.btn-delete {
+  margin-right: 5px;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.btn-create-admin {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #294b29;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-create-admin:hover {
+  background-color: #152515;
+  color: #fff;
+}
+
+.btn-edit-admin {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  background-color: transparent;
+  color: #294b29;
+  border: 2px solid #294b29;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-edit-admin:hover {
+  background-color: #294b29;
+  color: #fff;
+}
+
+.table-admin p {
+  margin-bottom: 0px;
+}
+
+.modal form label {
+  display: block;
+  margin: 1rem 0 0.5rem 0;
+  font-weight: bold;
+}
+
+.modal form input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

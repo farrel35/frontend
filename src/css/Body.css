@@ -1,0 +1,495 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.container-home {
+  max-width: 95%;
+}
+#about-us {
+  width: 100%;
+  padding: 25px;
+  background-color: #294b29;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.h1-center {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 40px;
+}
+.h1-product {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.featurette {
+  margin-bottom: 50px;
+}
+
+.featurette h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.featurette p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+}
+
+.featurette img {
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
+}
+
+.featurette img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.card-transition {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+/* .card-transition {
+  transition: transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  -ms-transition: transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+}
+
+.card-transition:hover {
+  transform: translateY(-5px);
+}
+
+.card-transition:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+} */
+/* WhyChooseUs.css */
+/* WhyChooseUs.css */
+
+.why-choose-us-section {
+  padding: 4rem 0; /* Padding atas dan bawah */
+}
+
+.why-choose-us-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #202020; /* Warna teks untuk judul */
+}
+.why-choose-us-section h2 span {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #437943; /* Warna teks untuk judul */
+}
+.why-choose-us-section .row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.why-choose-us-section .why-choose-us-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffffff; /* Warna latar belakang kartu */
+  border: none; /* Menghilangkan border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan awal */
+  border-radius: 8px; /* Sudut bulat */
+  margin: 0 20px; /* Margin antar kartu */
+  flex: 1; /* Kartu akan mengambil ruang yang sama dalam flexbox */
+  /* max-width: 300px;  */
+}
+
+.why-choose-us-section .why-choose-us-card:hover {
+  transform: translateY(-10px);
+  scale: 1.03;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.why-choose-us-section .why-choose-us-card .icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #294b29; /* Warna latar belakang hijau untuk ikon */
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /* Membuat lingkaran */
+  margin: 0 auto; /* Pusatkan ikon */
+}
+
+.why-choose-us-section .why-choose-us-card .icon {
+  color: #fff; /* Warna putih untuk ikon */
+  font-size: 2rem; /* Ukuran font ikon */
+}
+
+.why-choose-us-section .why-choose-us-card .card-body {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.why-choose-us-section .why-choose-us-card .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.why-choose-us-section .why-choose-us-card .card-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+@media (max-width: 768px) {
+  .why-choose-us-section .row {
+    flex-wrap: wrap; /* Baris menggulung saat layar lebih kecil */
+  }
+
+  .why-choose-us-section .why-choose-us-card {
+    margin-bottom: 2rem; /* Margin bawah lebih besar */
+  }
+}
+
+/* hero css */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #d8ead5c1;
+}
+
+.hero-image {
+  flex: 0 0 45%; /* Adjust as needed */
+  max-width: 45%;
+  margin-bottom: 1rem;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-content {
+  flex: 0 0 45%; /* Adjust as needed */
+  max-width: 45%;
+}
+
+.hero-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  text-align: justify;
+  color: #1c1c1c;
+}
+
+.hero-features {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hero-features li {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn-hero {
+  display: inline-block;
+  background-color: transparent;
+  color: #294b29;
+  border: 2px solid #294b29;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  transition: 0.8s ease;
+}
+
+.btn-hero:hover {
+  background-color: #294b29;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-image,
+  .hero-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+/* CSS tambahan untuk section hero */
+
+.hero {
+  position: relative; /* Menambahkan posisi relatif untuk overlay */
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  position: relative; /* Menambahkan posisi relatif untuk konten */
+  color: #071f0b; /* Warna default untuk teks */
+}
+
+.hero-content h2 span {
+  color: #294b29; /* Warna untuk kata "Kualitas" */
+}
+
+/* OurProducts.css */
+/* OurProducts.css */
+/* Gaya untuk header */
+.our-products-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0 3rem 0;
+}
+
+.our-products-header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.view-products-link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+@media (max-width: 576px) {
+  .view-products-link {
+    font-size: 0.7rem;
+  }
+}
+.view-products-link:hover {
+  text-decoration: underline;
+}
+
+/* Gaya untuk gambar di dalam kartu produk */
+.our-products-section .card-product .card-img-top {
+  width: 100%;
+  height: 150px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  margin: auto;
+}
+.scrollUp {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: 10px 20px;
+  background: #294b29;
+  color: #fff;
+  font-size: 25px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  padding: 0;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px #00000026;
+}
+.scrollUp:hover {
+  background: #2c2d3f;
+}
+
+/* FAQ Section Styles */
+.faq-section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding: 20px;
+}
+
+.faq-heading {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #343a40;
+}
+
+.faq-heading span.highlight-text {
+  color: #417541;
+  font-weight: 900; /* Ubah warna sesuai keinginan */
+}
+
+.faq-heading::before,
+.faq-heading::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 30%;
+  height: 2px;
+  background-color: #dee2e6;
+}
+
+.faq-heading::before {
+  left: 0;
+}
+
+.faq-heading::after {
+  right: 0;
+}
+
+.faq-subheading {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.2em;
+  color: #6c757d;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.accordion-button {
+  background-color: #ffffffa0;
+  color: #161616;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #294b29d8;
+  color: #e8e5e5;
+  border-radius: 10px;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-item {
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.accordion-body {
+  background-color: #ffffff;
+  padding: 20px;
+  border-top: none;
+}
+
+.accordion-collapse {
+  border-top: none;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .faq-section {
+    padding: 15px;
+  }
+
+  .faq-heading {
+    font-size: 1.5em;
+  }
+
+  .faq-heading::before,
+  .faq-heading::after {
+    width: 20%;
+  }
+
+  .accordion-button {
+    padding: 10px;
+  }
+
+  .accordion-body {
+    padding: 15px;
+  }
+
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.container-faq {
+  max-width: 95%;
+  margin-top: 50px;
+}
+
+.card-product {
+  transition: 0.2s;
+  -moz-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.card-product:hover {
+  border: 1px solid #294b29;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+  transition: 0.2s;
+  -moz-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.card-title {
+  /* height: 40px; Adjust this height as needed */
+  overflow: hidden;
+  word-wrap: break-word; /* Allow long words to break and wrap */
+}
+
+.add-to-cart-btn {
+  background-color: #294b29;
+  color: #fff;
+
+  /* padding: 8px 15px; */
+  border-radius: 5px;
+  /* font-size: 14px; */
+}
+
+.add-to-cart-btn:hover {
+  background-color: #697d74;
+  color: white;
+}
+.card .card-img-top {
+  width: 100%;
+  height: 150px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  margin: auto;
+}
+
+.card-img-product {
+  width: 100%;
+  height: 400px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  margin: auto;
+}
