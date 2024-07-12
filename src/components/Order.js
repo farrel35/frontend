@@ -166,7 +166,17 @@ const Order = () => {
                           <td>{item.no_order}</td>
                           <td className="text-center">
                             <small className="opacity-50 text-nowrap">
-                              {new Date(item.order_date).toLocaleDateString()}
+                              {new Date(item.order_date).toLocaleString(
+                                "en-US",
+                                {
+                                  year: "numeric",
+                                  month: "2-digit",
+                                  day: "2-digit",
+                                  hour: "2-digit",
+                                  minute: "2-digit",
+                                  hour12: false,
+                                }
+                              )}
                             </small>
                           </td>
                           <td className="text-center">
