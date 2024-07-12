@@ -257,7 +257,7 @@ const Body = () => {
                     <div className="card card-product mb-lg-4">
                       <div className="card-body text-center py-8">
                         <img
-                          src={`http://localhost:4000${category.image}`}
+                          src={`https://backend-api-production-bb92.up.railway.app/${category.image}`}
                           alt="Category"
                           className="mb-3 img-fluid card-img-top"
                         />
@@ -293,7 +293,7 @@ const Body = () => {
                       <div className="card-body">
                         <div className="text-center position-relative">
                           <img
-                            src={`http://localhost:4000${product.image}`}
+                            src={`https://backend-api-production-bb92.up.railway.app/${product.image}`}
                             alt="Product"
                             className="mb-3 img-fluid card-img-top"
                           />

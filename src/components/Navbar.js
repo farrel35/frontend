@@ -145,7 +145,7 @@ const Navbar = () => {
           >
             <li key={item.id_cart} className="dropdown-item d-flex">
               <img
-                src={`http://localhost:4000${item.image}`}
+                src={`https://backend-api-production-bb92.up.railway.app/${item.image}`}
                 alt={item.title}
                 width="64"
                 height="64"

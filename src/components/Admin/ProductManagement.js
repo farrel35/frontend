@@ -403,7 +403,7 @@ const ProductManagement = () => {
                       />
                     ) : (
                       <img
-                        src={`http://localhost:4000${selectedProduct.image}`}
+                        src={`https://backend-api-production-bb92.up.railway.app/${selectedProduct.image}`}
                         alt="Default Preview"
                         className="img-fluid"
                       />

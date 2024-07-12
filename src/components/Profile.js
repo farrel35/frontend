@@ -81,7 +81,7 @@ const Profile = () => {
             <h1>Profil Pengguna</h1>
             <div className="profile-details">
               <img
-                src={`http://localhost:4000${userData.image}`}
+                src={`https://backend-api-production-bb92.up.railway.app/${userData.image}`}
                 alt="Profile"
                 className="profile-picture"
               />

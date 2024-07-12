@@ -52,7 +52,7 @@ const ProductDetail = () => {
         setProduct(mergedProductDetail);
         setAvailableProducts(productsData);
         setProductImages(imagesData);
-        const mainImageUrl = `http://localhost:4000${productDetail.image}`;
+        const mainImageUrl = `https://backend-api-production-bb92.up.railway.app/${productDetail.image}`;
         setMainImage(mainImageUrl);
         setPrimaryImage(mainImageUrl);
       } catch (error) {
@@ -135,12 +135,14 @@ const ProductDetail = () => {
                 {productImages.map((img, index) => (
                   <img
                     key={index}
-                    src={`http://localhost:4000${img.image}`}
+                    src={`https://backend-api-production-bb92.up.railway.app/${img.image}`}
                     alt={`Thumbnail ${index}`}
                     className="img-thumbnail me-2"
                     style={{ width: "5rem", cursor: "pointer" }}
                     onClick={() =>
-                      setMainImage(`http://localhost:4000${img.image}`)
+                      setMainImage(
+                        `https://backend-api-production-bb92.up.railway.app/${img.image}`
+                      )
                     }
                   />
                 ))}
@@ -212,7 +214,7 @@ const ProductDetail = () => {
                             <div className="card-body">
                               <div className="text-center position-relative">
                                 <img
-                                  src={`http://localhost:4000${currentProduct.image}`}
+                                  src={`https://backend-api-production-bb92.up.railway.app/${currentProduct.image}`}
                                   alt="Product"
                                   className="mb-3 img-fluid card-img-top"
                                 />
