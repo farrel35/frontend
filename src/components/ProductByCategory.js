@@ -74,7 +74,7 @@ const ProductByCategory = () => {
                       <div className="card-body">
                         <div className="text-center position-relative">
                           <img
-                            src={`https://backend-api-production-bb92.up.railway.app/${product.image}`}
+                            src={`https://backend-api-production-bb92.up.railway.app${product.image}`}
                             alt="Product"
                             className="mb-3 img-fluid card-img-top"
                           />

@@ -210,7 +210,7 @@ const Cart = () => {
           <div className="col-8 d-flex align-items-center">
             <Link to={`/product/${item.id_product}`}>
               <img
-                src={`https://backend-api-production-bb92.up.railway.app/${item.image}`}
+                src={`https://backend-api-production-bb92.up.railway.app${item.image}`}
                 className="img-fluid rounded-3"
                 alt="Shopping item"
                 style={{ width: "75px" }}

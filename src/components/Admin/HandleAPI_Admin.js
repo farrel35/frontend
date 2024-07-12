@@ -1,7 +1,7 @@
 import axios from "axios";
 import Swal from "sweetalert2";
 
-const BASE_URL = "https://backend-api-production-bb92.up.railway.app/";
+const BASE_URL = "https://backend-api-production-bb92.up.railway.app";
 
 export const fetchAllUsers = async () => {
   const token = localStorage.getItem("token");
@@ -471,7 +471,7 @@ export const changeRole = async (userId, newRole) => {
   try {
     const token = localStorage.getItem("token");
     const response = await axios.put(
-      `https://backend-api-production-bb92.up.railway.app//admin`,
+      `https://backend-api-production-bb92.up.railway.app/admin`,
       { id_user: userId, role: newRole }, // Correctly send id_user and role in the request body
       {
         headers: {
@@ -543,7 +543,7 @@ export const updateStatusOrder = async (statusOrder, noOrder, noResi) => {
       payload.no_resi = noResi;
     }
     const response = await axios.put(
-      `https://backend-api-production-bb92.up.railway.app//admin/transaction-detail/edit/${noOrder}`,
+      `https://backend-api-production-bb92.up.railway.app/admin/transaction-detail/edit/${noOrder}`,
       payload,
       {
         headers: {

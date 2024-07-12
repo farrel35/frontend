@@ -177,7 +177,7 @@ const ProductImageManagement = () => {
                           className="list-group-item list-group-item-action d-flex gap-3 py-3"
                         >
                           <img
-                            src={`https://backend-api-production-bb92.up.railway.app/${img.image}`}
+                            src={`https://backend-api-production-bb92.up.railway.app${img.image}`}
                             alt="Product"
                             width={128}
                             height={128}
