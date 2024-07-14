@@ -403,7 +403,7 @@ const ProductManagement = () => {
                       />
                     ) : (
                       <img
-                        src={`https://backend-api-production-bb92.up.railway.app${selectedProduct.image}`}
+                        src={`https://backend-api-neon-three.vercel.app${selectedProduct.image}`}
                         alt="Default Preview"
                         className="img-fluid"
                       />

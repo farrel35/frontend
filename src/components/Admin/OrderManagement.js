@@ -131,7 +131,7 @@ const OrderManagement = () => {
                           alt="Product"
                           className="flex-shrink-0"
                           height="64"
-                          src={`https://backend-api-production-bb92.up.railway.app${detail.image}`}
+                          src={`https://backend-api-neon-three.vercel.app${detail.image}`}
                           width="64"
                         />
                         {detail.product_name} x {detail.quantity}
@@ -286,7 +286,7 @@ const OrderManagement = () => {
                 <img
                   alt=""
                   className="img-fluid pad img-cent"
-                  src={`https://backend-api-production-bb92.up.railway.app${
+                  src={`https://backend-api-neon-three.vercel.app${
                     orderItems.find((item) => item.no_order === currentOrderId)
                       .image_bayar
                   }`}

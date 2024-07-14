@@ -255,7 +255,7 @@ const CategoryManagement = () => {
                       />
                     ) : (
                       <img
-                        src={`https://backend-api-production-bb92.up.railway.app${selectedCategory.image}`}
+                        src={`https://backend-api-neon-three.vercel.app${selectedCategory.image}`}
                         alt="Default Preview"
                         className="img-fluid"
                       />
