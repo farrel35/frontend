@@ -255,14 +255,26 @@ const Navbar = () => {
                     {searchResults.length > 0 && (
                       <ul className="dropdown-menu show search-dropdown position-absolute">
                         {searchResults.map((result) => (
-                          <li key={result.id_product}>
-                            <Link
-                              to={`/product/${result.id_product}`}
-                              className="dropdown-item"
+                          <Link
+                            to={`/product/${result.id_product}`}
+                            className="text-decoration-none"
+                          >
+                            <li
+                              key={result.id_product}
+                              className="dropdown-item d-flex"
                             >
-                              {result.product_name}
-                            </Link>
-                          </li>
+                              <img
+                                src={`https://backend-api-production-bb92.up.railway.app${result.image}`}
+                                alt={result.title}
+                                width="64"
+                                height="64"
+                                className="flex-shrink-0"
+                              />
+                              <div className="d-flex flex-column justify-content-center ms-3">
+                                <h6>{result.product_name}</h6>
+                              </div>
+                            </li>
+                          </Link>
                         ))}
                       </ul>
                     )}

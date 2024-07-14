@@ -136,7 +136,7 @@ const AllProducts = () => {
           <div className="col-md-10">
             <section id="all-products" className="all-products-section">
               <div id="our-products" className="our-products-section">
-                <div className="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-5">
+                <div className="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-4">
                   {currentProducts.length === 0 ? (
                     <p>Tidak ada produk di Kategori {selectedCategory}</p>
                   ) : (

@@ -172,13 +172,15 @@ const ProductDetail = () => {
                   onChange={(e) => setQuantity(parseInt(e.target.value))}
                 />
                 <button
-                  className="btn btn-outline-dark flex-shrink-0"
+                  className="btn btn-outline-success flex-shrink-0 me-3"
                   type="button"
                   onClick={() => handleAddToCart(product)}
                 >
-                  <i className="me-1" />
-                  Add to cart
+                  <i className="me-1" />+ Keranjang
                 </button>
+                <Link to="/all-products" className="btn btn-outline-dark">
+                  Kembali
+                </Link>
               </div>
             </div>
           </div>

@@ -267,18 +267,21 @@ const Cart = () => {
               <div className="row">
                 <div className="col-lg-7">
                   <h5 className="mb-3">
-                    <Link to="/" className="cart-text-body cart-a-none">
+                    <Link
+                      to="/all-products"
+                      className="cart-text-body cart-a-none"
+                    >
                       <i className="fas fa-long-arrow-alt-left me-2"></i>
-                      Continue shopping
+                      Lanjut belanja
                     </Link>
                   </h5>
                   <hr />
 
                   <div className="d-flex justify-content-between align-items-center mb-4">
                     <div>
-                      <p className="mb-1">Shopping cart</p>
+                      <p className="mb-1">Keranjang Belanja</p>
                       <p className="mb-0">
-                        You have {cartItems.length} items in your cart
+                        Kamu mempunyai {cartItems.length} produk di keranjang
                       </p>
                     </div>
                   </div>
