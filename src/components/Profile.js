@@ -81,7 +81,7 @@ const Profile = () => {
             <h1>Profil Pengguna</h1>
             <div className="profile-details">
               <img
-                src={`https://backend-api-neon-three.vercel.app${userData.image}`}
+                src={`https://backend-nu-livid.vercel.app${userData.image}`}
                 alt="Profile"
                 className="profile-picture"
               />

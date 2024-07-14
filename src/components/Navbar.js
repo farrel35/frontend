@@ -145,7 +145,7 @@ const Navbar = () => {
           >
             <li key={item.id_cart} className="dropdown-item d-flex">
               <img
-                src={`https://backend-api-neon-three.vercel.app${item.image}`}
+                src={`https://backend-nu-livid.vercel.app${item.image}`}
                 alt={item.title}
                 width="64"
                 height="64"
@@ -264,7 +264,7 @@ const Navbar = () => {
                               className="dropdown-item d-flex"
                             >
                               <img
-                                src={`https://backend-api-neon-three.vercel.app${result.image}`}
+                                src={`https://backend-nu-livid.vercel.app${result.image}`}
                                 alt={result.title}
                                 width="64"
                                 height="64"

@@ -2,7 +2,7 @@ import axios from "axios";
 import Swal from "sweetalert2";
 import bcrypt from "bcryptjs-react";
 
-const BASE_URL = "https://backend-api-neon-three.vercel.app";
+const BASE_URL = "https://backend-nu-livid.vercel.app";
 
 export const fetchProducts = async () => {
   const response = await axios.get(`${BASE_URL}/products`);
@@ -400,7 +400,7 @@ export const checkoutCart = async (cartItems, formData) => {
 
   try {
     await axios.post(
-      "https://backend-api-neon-three.vercel.app/order/checkout",
+      "https://backend-nu-livid.vercel.app/order/checkout",
       {
         cartItems: cartItems,
         nama_penerima: formData.get("nama_penerima"), // Retrieve fields from formData

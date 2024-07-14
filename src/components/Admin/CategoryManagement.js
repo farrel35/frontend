@@ -255,7 +255,7 @@ const CategoryManagement = () => {
                       />
                     ) : (
                       <img
-                        src={`https://backend-api-neon-three.vercel.app${selectedCategory.image}`}
+                        src={`https://backend-nu-livid.vercel.app${selectedCategory.image}`}
                         alt="Default Preview"
                         className="img-fluid"
                       />

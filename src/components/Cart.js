@@ -210,7 +210,7 @@ const Cart = () => {
           <div className="col-8 d-flex align-items-center">
             <Link to={`/product/${item.id_product}`}>
               <img
-                src={`https://backend-api-neon-three.vercel.app${item.image}`}
+                src={`https://backend-nu-livid.vercel.app${item.image}`}
                 className="img-fluid rounded-3"
                 alt="Shopping item"
                 style={{ width: "75px" }}

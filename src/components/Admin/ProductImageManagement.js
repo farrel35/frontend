@@ -177,7 +177,7 @@ const ProductImageManagement = () => {
                           className="list-group-item list-group-item-action d-flex gap-3 py-3"
                         >
                           <img
-                            src={`https://backend-api-neon-three.vercel.app${img.image}`}
+                            src={`https://backend-nu-livid.vercel.app${img.image}`}
                             alt="Product"
                             width={128}
                             height={128}

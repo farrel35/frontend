@@ -52,7 +52,7 @@ const ProductDetail = () => {
         setProduct(mergedProductDetail);
         setAvailableProducts(productsData);
         setProductImages(imagesData);
-        const mainImageUrl = `https://backend-api-neon-three.vercel.app${productDetail.image}`;
+        const mainImageUrl = `https://backend-nu-livid.vercel.app${productDetail.image}`;
         setMainImage(mainImageUrl);
         setPrimaryImage(mainImageUrl);
       } catch (error) {
@@ -135,13 +135,13 @@ const ProductDetail = () => {
                 {productImages.map((img, index) => (
                   <img
                     key={index}
-                    src={`https://backend-api-neon-three.vercel.app${img.image}`}
+                    src={`https://backend-nu-livid.vercel.app${img.image}`}
                     alt={`Thumbnail ${index}`}
                     className="img-thumbnail me-2"
                     style={{ width: "5rem", cursor: "pointer" }}
                     onClick={() =>
                       setMainImage(
-                        `https://backend-api-neon-three.vercel.app${img.image}`
+                        `https://backend-nu-livid.vercel.app${img.image}`
                       )
                     }
                   />
@@ -216,7 +216,7 @@ const ProductDetail = () => {
                             <div className="card-body">
                               <div className="text-center position-relative">
                                 <img
-                                  src={`https://backend-api-neon-three.vercel.app${currentProduct.image}`}
+                                  src={`https://backend-nu-livid.vercel.app${currentProduct.image}`}
                                   alt="Product"
                                   className="mb-3 img-fluid card-img-top"
                                 />
